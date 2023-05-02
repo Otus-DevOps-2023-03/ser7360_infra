@@ -1,5 +1,5 @@
 # ДЗ по модулю Знакомство с облачной инфраструктурой. Yandex.Cloud
-bastion_IP = 158.160.47.190/
+bastion_IP = 158.160.47.190
 
 someinternalhost_IP = 10.128.0.6
 
