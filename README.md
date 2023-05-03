@@ -1,10 +1,10 @@
 # ДЗ по модулю Знакомство с облачной инфраструктурой. Yandex.Cloud
-bastion_IP = 158.160.47.190
+bastion_IP = 158.160.35.13
 
 someinternalhost_IP = 10.128.0.6
 
 # Доп задание 
-VPN server admin panel: https://158.160.47.190/.sslip.io
+VPN server admin panel: https://158.160.35.13.sslip.io
 
 Для подключения к хосту без внешнего IP в одну команду необходимо использовать bastion как jump хост:
 
@@ -13,7 +13,7 @@ ssh -J nikita@bastion nikita@someinternalhost
 
 Jump host
 Host bastion
-  HostName 158.160.47.190
+  HostName 158.160.35.13
   User nikita
 
 Destination host
