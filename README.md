@@ -9,6 +9,7 @@ VPN server admin panel: https://158.160.35.13.sslip.io
 Для подключения к хосту без внешнего IP в одну команду необходимо использовать bastion как jump хост:
 
 ssh -J nikita@bastion nikita@someinternalhost
+
 Для подключения при помощи команды вида ssh someinternalhost из локальной консоли рабочего устройства, чтобы подключение выполнялось по алиасу someinternalhost, необходимо в файле ~/.ssh/config прописать:
 
 Jump host
