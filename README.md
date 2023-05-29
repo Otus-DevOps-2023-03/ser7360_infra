@@ -1,6 +1,6 @@
 ## ДЗ по модулю Основные сервисы Yandex Cloud ##
 ```
-testapp_IP = 158.160.47.180
+testapp_IP = 51.250.13.176
 testapp_port = 9292
 ```
 
